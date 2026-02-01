@@ -20,14 +20,14 @@ const subscribeForm = document.querySelector('.subscribe-form');
 // Flower data
 const flowers = [
     { id: 1, name: "Red Rose", type: "rose", price: 4.99, img: "https://images.unsplash.com/photo-1562690868-60bbe7293e94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=718&q=80" },
-    { id: 2, name: "Pink Tulip", type: "tulip", price: 3.99, img: "https://images.unsplash.com/photo-1520769669658-f07657f5a307?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" },
-    { id: 3, name: "White Lily", type: "lily", price: 5.99, img: "https://images.unsplash.com/photo-1572451479137-7a7b5a5d4f70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" },
-    { id: 4, name: "Sunflower", type: "sunflower", price: 4.49, img: "https://images.unsplash.com/photo-1597848212624-e5f7a6c9f7c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" },
-    { id: 5, name: "Purple Orchid", type: "orchid", price: 8.99, img: "https://images.unsplash.com/photo-1545243421-89e5c9b6d12c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" },
-    { id: 6, name: "Yellow Rose", type: "rose", price: 4.49, img: "https://images.unsplash.com/photo-1560717786-0b4e4c1f1c9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" },
-    { id: 7, name: "Purple Tulip", type: "tulip", price: 4.29, img: "https://images.unsplash.com/photo-1529307474711-5d5b3c3b3c3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" },
-    { id: 8, name: "Pink Lily", type: "lily", price: 6.49, img: "https://images.unsplash.com/photo-1574323347402-f3e8f3b4b3b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" },
-    { id: 9, name: "White Orchid", type: "orchid", price: 9.99, img: "https://images.unsplash.com/photo-1545243421-89e5c9b6d12c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" }
+    { id: 2, name: "Pink Tulip", type: "tulip", price: 3.99, img: "https://jooinn.com/images/pink-tulips-1.jpg" },
+    { id: 3, name: "White Lily", type: "lily", price: 5.99, img: "https://a-z-animals.com/media/2023/03/shutterstock_2008819298.jpg" },
+    { id: 4, name: "Sunflower", type: "sunflower", price: 4.49, img: "https://www.thespruce.com/thmb/hCuNm8YshuuFYcJmI0s97VpuYnU=/3008x2000/filters:no_upscale():max_bytes(150000):strip_icc()/F_Sunflower_HeliosFlameF1-Harris-5936d6e13df78c08abfbf025.jpg" },
+    { id: 5, name: "Purple Orchid", type: "orchid", price: 8.99, img: "https://cdn.wallpapersafari.com/90/29/Do1g68.jpg" },
+    { id: 6, name: "Yellow Rose", type: "rose", price: 4.49, img: "https://images.pexels.com/photos/209004/pexels-photo-209004.jpeg?cs=srgb&dl=pexels-pixabay-209004.jpg&fm=jpg" },
+    { id: 7, name: "Purple Tulip", type: "tulip", price: 4.29, img: "https://i5.walmartimages.com/asr/9807af5b-4048-4861-a786-c13dc6b1ec2a.de8d8657a1d3f6c9824c7da89bafd842.jpeg" },
+    { id: 8, name: "Pink Lily", type: "lily", price: 6.49, img: "https://www.thespruce.com/thmb/30NwrBiUieqWVRohkA49zFPNyiY=/4288x2848/filters:fill(auto,1)/lily-types-to-grow-in-garden-1315809-hero-4882303dc806493d86f56d7a71b3d189.jpg" },
+    { id: 9, name: "White Orchid", type: "orchid", price: 9.99, img: "https://getwallpapers.com/wallpaper/full/f/5/d/955743-popular-white-orchid-wallpaper-1920x1285-ipad-pro.jpg" }
 ];
 
 // Cart data
